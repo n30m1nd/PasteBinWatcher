@@ -29,7 +29,7 @@ while (not finish):
 
 		###NUMBERS
 		##Ask me for the part of this code
-		##Has some special regular expressions for Credit Cards
+		##Regular expressions for Credit Cards
 
 		#IP SEARCH
 		ips = re.findall(r'[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}', source, re.IGNORECASE)
